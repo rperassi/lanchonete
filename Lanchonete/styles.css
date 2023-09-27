@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2828db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #1e88e5;
+}
+
+.tab-content {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ul li img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item-info p {
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    color: #e91e63;
+}
+
+#redes-sociais {
+    margin-bottom: 30px;
+}
+
+#redes-sociais h2 {
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #e91e63;
+    border: 1px solid #e91e63;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-links li a:hover {
+    background-color: #e91e63;
+    color: #fff;
+}
+
+#localizacao {
+    margin-bottom: 30px;
+}
+
+#localizacao h2 {
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #555;
+}
